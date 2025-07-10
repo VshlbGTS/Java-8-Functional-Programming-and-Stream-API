@@ -1,6 +1,7 @@
 package practice.fi_and_stream;
 
 import java.util.List;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Main {
@@ -21,7 +22,8 @@ public class Main {
 
         System.out.println("Shortening Operations: ");
 //        4. Shortening Operations - TODO
-
+        new ShorteningOperations().findFirstWordAI(Stream.of('H', 'i', ' ', 'T',
+                'e', 's', 't')).forEach(System.out::println);
 
         System.out.println("Indirect Mapping: ");
 //        5 - Indirect Mapping
@@ -46,6 +48,19 @@ public class Main {
         System.out.println("Combining Collectors");
 //        10 - Combining Collectors
         new CombiningCollectors().propsWithRepeatedNames(new StreamGeneration().generatePropsWithDuplicateNames()).forEach(System.out::println);
+
+        System.out.println("Stateful Collectors");
+//        11 - Stateful Collectors
+        new StatefulCollectors().getNamesAndSum(new StreamGeneration().generateProps()).forEach((k, v) -> System.out.println(k + " " + v));
+
+        System.out.println("");
+//        12 - Collector Chaining
+        new CollectorChaining().sumOfOddAndEven(Stream.of(1, 2, 3, 4, 5, 6,
+                7, 8, 9, 10)).forEach((k, v) -> System.out.println(k + " " + v));
+
+        System.out.println("");
+//        13 - Custom Aggregation
+        new CustomAggregation().getNamesWithMinMaxValues(new StreamGeneration().generateProps()).forEach((k, v) -> System.out.println(k + " " + v));
 
         System.out.println("");
     }

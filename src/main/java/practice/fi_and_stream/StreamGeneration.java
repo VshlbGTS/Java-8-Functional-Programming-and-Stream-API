@@ -15,7 +15,7 @@ public class StreamGeneration {
                 new Prop(UUID.randomUUID(), "Asdf", 20),
                 new Prop(UUID.randomUUID(), "Adfs", 20),
                 new Prop(UUID.randomUUID(), "Asdf", 40),
-                new Prop(UUID.randomUUID(), "Bsfds", 20),
+                new Prop(UUID.randomUUID(), "Bsfds", 10),
                 new Prop(UUID.randomUUID(), "posdjf", 30),
                 new Prop(UUID.randomUUID(), "Tsdgf", 50),
                 new Prop(UUID.randomUUID(), "Gsdf", 25)
