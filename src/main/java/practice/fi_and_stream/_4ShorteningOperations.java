@@ -3,7 +3,7 @@ package practice.fi_and_stream;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Stream;
 
-public class ShorteningOperations {
+public class _4ShorteningOperations {
 
     public Stream<Character> findFirstWord(Stream<Character> charStream) {
         AtomicInteger i = new AtomicInteger(-1);

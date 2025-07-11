@@ -4,7 +4,7 @@ import java.util.UUID;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class StreamGeneration {
+public class _1StreamGeneration {
     public Stream<Prop> generate(int n){
         return IntStream.range(0, n)
                 .mapToObj(i -> new Prop(UUID.randomUUID(), "DefaultName", i));

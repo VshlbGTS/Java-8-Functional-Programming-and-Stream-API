@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.stream.Stream;
 
-public class StatefulFilter {
+public class _8StatefulFilter {
     public Stream<Prop> filterDuplicates(Stream<Prop> propStream) {
         Set<UUID> uuidSet = new HashSet<>();
         return propStream.filter(prop -> uuidSet.add(prop.id()));

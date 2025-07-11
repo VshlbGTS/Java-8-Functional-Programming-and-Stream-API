@@ -3,7 +3,7 @@ package practice.fi_and_stream;
 import java.util.Objects;
 import java.util.stream.Stream;
 
-public class IndirectMapping {
+public class _5IndirectMapping {
 
     public Stream<String> getStringStream(Stream<Prop> propStream) {
 

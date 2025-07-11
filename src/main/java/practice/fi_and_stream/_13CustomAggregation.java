@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
-public class CustomAggregation {
+public class _13CustomAggregation {
     public Map<String, String> getNamesWithMinMaxValues(Stream<Prop> propStream) {
         Map<String, String> nameMap = new HashMap<>();
         List<Prop> propList = propStream.toList();

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Stream;
 
-public class CombiningCollectors {
+public class _10CombiningCollectors {
     public List<Prop> propsWithRepeatedNames(Stream<Prop> propStream) {
         Set<String> nameSet = new HashSet<>();
         Set<String> repeatedNames = new HashSet<>();
