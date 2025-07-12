@@ -21,7 +21,7 @@ public class Main {
 
         System.out.println("Shortening Operations: ");
 //        4. Shortening Operations - TODO
-        new _4ShorteningOperations().findFirstWordAI(Stream.of('H', 'i', ' ', 'T',
+        new _4ShorteningOperations().findFirstWord(Stream.of('H', 'i', ' ', 'T',
                 'e', 's', 't')).forEach(System.out::println);
 
         System.out.println("Indirect Mapping: ");
